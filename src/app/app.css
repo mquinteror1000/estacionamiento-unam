@@ -1,0 +1,57 @@
+.header-unam {
+  background-color: var(--unam-azul);
+  color: var(--unam-oro);
+  padding: 20px;
+  text-align: center;
+  border-bottom: 5px solid var(--unam-oro);
+}
+
+.header-unam h1 { margin: 0; font-size: 1.5rem; }
+.header-unam h2 { margin: 10px 0 0 0; font-size: 1.2rem; font-weight: normal; }
+
+.dashboard {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 40px 20px;
+  flex-wrap: wrap;
+}
+
+.panel-acceso {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+  border-top: 4px solid var(--unam-azul);
+}
+
+.estado {
+  margin: 20px 0;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-radius: 4px;
+}
+
+.activo {
+  color: green;
+  font-weight: bold;
+}
+
+.btn-unam {
+  background-color: var(--unam-oro);
+  color: var(--unam-azul);
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+  transition: background-color 0.3s;
+}
+
+.btn-unam:hover {
+  background-color: #bfa130;
+}

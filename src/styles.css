@@ -1,1 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
+:root {
+  --unam-azul: #002B5C;
+  --unam-oro: #D4AF37;
+  --fondo-claro: #F5F5F5;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: var(--fondo-claro);
+  color: #333;
+}
